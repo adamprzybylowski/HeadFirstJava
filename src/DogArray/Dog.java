@@ -10,7 +10,7 @@ public class Dog {
     public static void main(String[] args) {
         //object dog
         Dog dog1 = new Dog();
-        dog1.bark();
+        dog1.bark();  // we should get null Barking ... becasue we dont have name of dog1 at this moment
         dog1.name = "Azor";
 
         // array with objects Dog

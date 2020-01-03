@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eabf7357-3a0a-460f-a021-4a4474cb26b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Island/IslandTestArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDogObjs/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDogObjs/DogTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.IslandTestArray">
+  <component name="RunManager" selected="Application.DogTest">
     <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DogArray.Dog" />
       <module name="FirstHeadJava" />
@@ -46,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilmTest.FilmTester" />
+    <configuration name="DogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDogObjs.DogTest" />
       <module name="FirstHeadJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FilmTest.*" />
+          <option name="PATTERN" value="TestDogObjs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +100,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FilmTester" />
       <item itemvalue="Application.GameStarter" />
       <item itemvalue="Application.PercussionTester" />
       <item itemvalue="Application.Dog" />
       <item itemvalue="Application.IslandTestArray" />
+      <item itemvalue="Application.DogTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DogTest" />
         <item itemvalue="Application.IslandTestArray" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.PercussionTester" />
         <item itemvalue="Application.GameStarter" />
-        <item itemvalue="Application.FilmTester" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,8 @@
       <workItem from="1577650559272" duration="1682000" />
       <workItem from="1577709879007" duration="5932000" />
       <workItem from="1577908184348" duration="3694000" />
-      <workItem from="1577962176704" duration="1281000" />
+      <workItem from="1577962176704" duration="2717000" />
+      <workItem from="1578079706958" duration="1720000" />
     </task>
     <servers />
   </component>
@@ -164,37 +166,41 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="801" y="305" width="375" height="614" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1577720529532">
+    <state x="801" y="316" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1578081234172">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state x="801" y="305" width="375" height="614" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1577720529532" />
+    <state x="801" y="316" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1173@67.27.1853.1173" timestamp="1578081234172" />
+    <state x="801" y="305" width="375" height="614" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1578080212013">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="801" y="305" width="375" height="614" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1578080212013" />
     <state x="776" y="370" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577537767308">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
     <state x="776" y="370" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1173@67.27.1853.1173" timestamp="1577537767308" />
-    <state width="1807" height="434" key="GridCell.Tab.0.bottom" timestamp="1577918309541">
+    <state width="903" height="434" key="GridCell.Tab.0.bottom" timestamp="1578081484028">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1807" height="434" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1577918309541" />
-    <state width="1807" height="434" key="GridCell.Tab.0.center" timestamp="1577918309540">
+    <state width="903" height="434" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1578081484028" />
+    <state width="903" height="434" key="GridCell.Tab.0.center" timestamp="1578081484021">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1807" height="434" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1577918309540" />
-    <state width="1807" height="434" key="GridCell.Tab.0.left" timestamp="1577918309539">
+    <state width="903" height="434" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1578081484021" />
+    <state width="903" height="434" key="GridCell.Tab.0.left" timestamp="1578081484021">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1807" height="434" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1577918309539" />
-    <state width="1807" height="434" key="GridCell.Tab.0.right" timestamp="1577918309541">
+    <state width="903" height="434" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1578081484021" />
+    <state width="903" height="434" key="GridCell.Tab.0.right" timestamp="1578081484026">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1807" height="434" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1577918309541" />
-    <state x="649" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1577962176083">
+    <state width="903" height="434" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1578081484026" />
+    <state x="649" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1578079707261">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state x="649" y="440" key="com.intellij.ide.util.TipDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1577962176083" />
-    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1577651261535">
+    <state x="649" y="440" key="com.intellij.ide.util.TipDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1578079707261" />
+    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup" timestamp="1578081230948">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup/67.27.1853.1173@67.27.1853.1173" timestamp="1577651261535" />
+    <state x="656" y="287" width="672" height="678" key="search.everywhere.popup/67.27.1853.1173@67.27.1853.1173" timestamp="1578081230948" />
   </component>
 </project>

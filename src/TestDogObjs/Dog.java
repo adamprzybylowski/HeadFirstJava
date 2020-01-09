@@ -42,7 +42,12 @@ public class Dog {
             }
             System.out.println(howManyBarks + " Medium Barks");
         } else {
-            System.out.println("Small Barking");
+            howManyBarks = numbersOfBarks;
+            while (numbersOfBarks > 0) {
+                numbersOfBarks = numbersOfBarks - 1;
+                System.out.println("Small Barking");
+            }
+            System.out.println(howManyBarks + " Small Barking");
 
         }
 

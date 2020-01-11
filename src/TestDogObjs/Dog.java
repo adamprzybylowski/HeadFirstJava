@@ -2,6 +2,14 @@ package TestDogObjs;
 
 public class Dog {
 
+    public int getHowManyBarks() {
+        return howManyBarks;
+    }
+
+    public void setHowManyBarks(int howManyBarks) {
+        this.howManyBarks = howManyBarks;
+    }
+
     public int howManyBarks;
 
     // getter i setter only to testing my scenario
@@ -34,7 +42,7 @@ public class Dog {
             }
             System.out.println(howManyBarks + " Big Barks");
 
-        } else if (size > 10) {
+        } if (size > 10) {
             howManyBarks = numbersOfBarks;
             while (numbersOfBarks > 0) {
                 numbersOfBarks = numbersOfBarks - 1;
@@ -44,8 +52,10 @@ public class Dog {
         } else {
             howManyBarks = numbersOfBarks;
             while (numbersOfBarks > 0) {
+                System.out.println("Small Barks");
                 numbersOfBarks = numbersOfBarks - 1;
-                System.out.println("Small Barking");
+
+
             }
             System.out.println(howManyBarks + " Small Barking");
 
